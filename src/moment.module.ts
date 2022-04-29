@@ -17,6 +17,10 @@ import { ParseZonePipe } from './parse-zone.pipe';
 import { SubtractPipe } from './subtract.pipe';
 import { TimeAgoPipe } from './time-ago.pipe';
 import { UtcPipe } from './utc.pipe';
+import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
+
+dayjs.extend(relativeTime);
 
 const ANGULAR_MOMENT_PIPES = [
   AddPipe,

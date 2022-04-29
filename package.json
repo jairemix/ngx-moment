@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/urish/ngx-moment#readme",
   "peerDependencies": {
+    "dayjs": "^1.11.1",
     "moment": "^2.19.3"
   },
   "devDependencies": {
@@ -44,6 +45,7 @@
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.13",
     "core-js": "^3.19.3",
+    "dayjs": "^1.11.1",
     "husky": "^7.0.0",
     "jest": "^27.4.5",
     "jest-preset-angular": "^11.0.1",
